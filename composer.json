@@ -1,9 +1,9 @@
 {
-    "name": "malkusch/php-index",
+    "name": "cashlink/php-index",
     "type": "library",
     "description": "This library provides an API to perform binary search operations on a sorted index. The index can be a XML document, a CSV document, or an arbitrary text file where the key has a fixed position. You can easily implement your own index. This API comes handy on any sorted data structure where realtime search operations are necessary without the detour of a DBS import.",
     "keywords": ["index", "binary search"],
-    "homepage": "https://github.com/malkusch/php-index",
+    "homepage": "https://github.com/cashlink/php-index",
     "license": "WTFPL-2.0",
     "authors": [
         {
@@ -18,6 +18,10 @@
     },
     "require": {
         "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "doctrine/orm": "^2"
     },
     "archive": {
         "exclude": ["/tests/"]
