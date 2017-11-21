@@ -1,2 +1,6 @@
 nbproject
 tests/unit/sandbox.php
+composer.lock
+composer.json
+vendor/
+composer.phar

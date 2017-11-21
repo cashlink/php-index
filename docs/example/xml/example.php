@@ -7,7 +7,7 @@
  * The example shows how to use an XML document with sorted elements.
  *
  * @author    Markus Malkusch <markus@malkusch.de>
- * @link      https://github.com/malkusch/php-index
+ * @link      https://github.com/cashlink/php-index
  */
 
 use malkusch\index\XMLIndex;

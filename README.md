@@ -14,7 +14,7 @@ Use [Composer](https://getcomposer.org/):
 ```json
 {
     "require": {
-        "malkusch/php-index": "0.0.1"
+        "cashlink/php-index": "1.0.0"
     }
 }
 ```
@@ -28,13 +28,6 @@ implemented index structure.
 
 # License and author
 
-This project is free and under WTFPL.
-Responsable for this project is Markus Malkusch <markus@malkusch.de>.
+Original author: Markus Malkusch <markus@malkusch.de>, WTFPL.
 
-## Donations
-
-If you like BAV and feel generous donate a few Bitcoins here:
-[1335STSwu9hST4vcMRppEPgENMHD2r1REK](bitcoin:1335STSwu9hST4vcMRppEPgENMHD2r1REK)
-
-
-[![Build Status](https://travis-ci.org/malkusch/php-index.svg)](https://travis-ci.org/malkusch/php-index)
+[![Build Status](https://travis-ci.org/cashlink/php-index.svg)](https://travis-ci.org/cashlink/php-index)
