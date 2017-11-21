@@ -8,5 +8,13 @@ php:
     - 5.4
     - 5.3
 
+cache:
+    directories:
+        - $HOME/.composer/cache
+
+install:
+    - composer install
+
 script:
-    - phpunit tests/unit
+    - vendor/bin/phpunit -c phpunit.xml
+    - vendor/bin/phpunit -c phpunit-integration.xml --testsuite IntegrationTests
